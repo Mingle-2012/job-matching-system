@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "job_count": 3,
+    "resume_count": 100,
+    "include_labels": false
+  },
+  "jobs": [
+    {
+      "job_name": "结构设计",
+      "job_text": "工作经验：结构 XPM、结构主设、结构 SE 等岗位一般要求 5 年以上工作经验，至少是高级工程师级别。\n画图能力：岗位硬性要求会画图，特别是能画手机相关的大件，如整体大壳子等，只了解局部零部件或只能画小件的不符合要求。\n项目经验：XPM 岗位需要有做过整个项目的 leader 经验，有项目推动和统筹能力。\n专业背景：优先考虑有手机结构设计经验的，手持设备（如平板）、穿戴设备等通信终端产品经验可次优考虑。",
+      "gt_names": [
+        "张颖浩",
+        "康前杰",
+        "徐荣森",
+        "周道德",
+        "罗文辉",
+        "潘立培",
+        "周东",
+        "杨嘉俊",
+        "牛万震",
+        "蒙贵秉",
+        "同世英",
+        "万全勇"
+      ],
+      "analysis": {
+        "core_skills": [
+          "Full-product structural design (large casings, entire handheld devices)",
+          "Project leadership and coordination (XPM/Lead duties)",
+          "DFM/DFA and mold design review",
+          "Tooling and fixture design for mass production",
+          "Material selection (plastics/metals) and surface treatment process knowledge",
+          "Structural analysis and optimization for consumer electronics",
+          "BOM management and cross-functional team coordination"
+        ],
+        "tools": [
+          "ProE / Creo",
+          "AutoCAD",
+          "UG / NX"
+        ],
+        "domain": [
+          "Mobile phone structural design",
+          "Consumer electronics",
+          "Handheld devices (tablets)",
+          "Wearable devices",
+          "Communication terminals"
+        ],
+        "seniority": "senior level (5+ years experience, senior engineer title or equivalent xpm/lead role)",
+        "experience": [
+          "Proven track record of leading full-cycle mobile phone projects from concept to mass production",
+          "Hands-on experience designing large structural components (e.g., main shells/chassis), not just small parts",
+          "Extensive experience working with mold vendors and managing tooling processes",
+          "Experience coordinating with ID, R&D, production, and supply chain teams"
+        ],
+        "hidden_rules": [
+          "Candidates must demonstrate the ability to drive project timelines and resolve complex technical bottlenecks independently.",
+          "Experience exclusively with small components or accessories is insufficient; must show ownership of whole-device structural integrity.",
+          "Familiarity with major smartphone brands' supply chains or working environments (e.g., Huawei, vivo, OPPO ecosystems) is highly preferred.",
+          "Strong communication skills are implicitly required due to the heavy emphasis on cross-departmental leadership and supplier negotiation."
+        ]
+      },
+      "weights": {
+        "skill_weight": 0.4,
+        "vector_weight": 0.2,
+        "role_weight": 0.2,
+        "experience_weight": 0.1,
+        "domain_weight": 0.1
+      },
+      "resume_labels": []
+    },
+    {
+      "job_name": "MBB产品开发经验",
+      "job_text": "1、驱动开发与移植：负责 MBB 产品如 CPE、网关等的以太网卡驱动、PHY 驱动及 GMAC 驱动等开发，像适配 Marvell、Intel 等主流网卡的驱动开发工作。同时要完成 Linux 等系统平台下网口驱动的 SDK 移植，搭建对应的开发环境，还需实现 PCI、PCIe 等网口相关硬件接口规范，确保驱动与硬件适配。\n\n2、功能调试与问题排查：调试网口驱动相关的底层程序，处理网络中断、数据包处理和错误恢复等问题。借助 gdb、tcpdump 等调试工具，定位并解决产品测试、量产及市场反馈中出现的网口驱动相关软硬件故障，还要配合解决系统测试、场测里网口通信相关的异常问题。\n\n3、性能优化与维护：针对 MBB 产品网口的数据传输速度、延迟、吞吐量等指标做性能调优，提升多核、高速网络环境下网口驱动的运行效率。长期维护网口驱动代码，跟进芯片、系统版本的更新，同步迭代驱动程序以保障兼容性，同时优化网口相关的功耗，契合 MBB 产品移动场景的续航需求。",
+      "gt_names": [
+        "吴民强",
+        "孙超",
+        "张帆",
+        "马雅泽",
+        "杨飞",
+        "曾爽",
+        "詹杨",
+        "周毅",
+        "王博",
+        "韩思锐",
+        "谢世耀",
+        "冯嘉琛",
+        "任鑫",
+        "崔斌",
+        "赵久鑫",
+        "杨浩"
+      ],
+      "analysis": {
+        "core_skills": [
+          "Linux Kernel Driver Development",
+          "Ethernet PHY and GMAC Driver Porting",
+          "PCI/PCIe Interface Implementation",
+          "Network Stack Debugging (TCP/IP, UDP, Interrupts)",
+          "Performance Optimization (Throughput, Latency, Multi-core)",
+          "C/C++ Programming",
+          "Device Adapter Development for Chips (Marvell, Intel)",
+          "SDK Integration and Environment Setup",
+          "Power Optimization for Mobile Broadband"
+        ],
+        "tools": [
+          "GDB",
+          "tcpdump",
+          "Wireshark",
+          "Strace",
+          "iperf",
+          "GCC/G++ Toolchain",
+          "Make/CMake",
+          "Git/SVN",
+          "Logic Analyzers/Oscilloscopes",
+          "Linux Build Systems (Yocto/OpenWRT)"
+        ],
+        "domain": [
+          "Mobile Broadband (MBB)",
+          "Embedded Networking (CPE, Gateways)",
+          "Linux Embedded Systems",
+          "Telecomm Hardware Interfaces",
+          "Chipset Driver Adaptation"
+        ],
+        "seniority": "mid-to-senior level (3-8+ years of relevant experience)",
+        "experience": [
+          "Proven track record in Linux network driver development and porting",
+          "Experience debugging complex hardware/software interactions (packets, interrupts)",
+          "History of optimizing driver performance under high-load conditions",
+          "Familiarity with specific chip vendors (Qualcomm, Intel, Marvell, etc.)",
+          "Long-term maintenance experience of driver codebases across system versions"
+        ],
+        "hidden_rules": [
+          "Candidates must be based in or willing to relocate to Xi'an (implied by resume location clustering)",
+          "Strong proficiency in C is prioritized over general application development (Java/Web), even if listed",
+          "Ability to read Chinese chip datasheets and Linux kernel documentation without language barriers",
+          "Hands-on experience with hardware bring-up, not just application-layer networking"
+        ]
+      },
+      "weights": {
+        "skill_weight": 0.4,
+        "vector_weight": 0.2,
+        "role_weight": 0.2,
+        "experience_weight": 0.1,
+        "domain_weight": 0.1
+      },
+      "resume_labels": []
+    },
+    {
+      "job_name": "射频开发工程师",
+      "job_text": "任职要求：\n1.通信专业毕业，3-5年射频工作经历，有手机开发经验优先\n2.熟练使用仿真软件,原理图,PCB软件,罗德,安利等工具软件\n3.熟练使用频谱仪，示波器，网络分析仪，综测仪等射频调试设备。\n4.有高通,MTK，展锐平台开发经验，熟悉平台调试工具使用\n5.具备较强责任心，团队意识，能承担较强工作压力，并能积极主动，具有不达目标不放弃的精神。\n6.据采用的手机平台和业内技术水平确定手机各射频指标的设计目标；\n7.按照3GPP/电信运营商/手机品牌公司的规范测试手机在各通讯制式（GSM/CDMA/WCDMA/TD-SCDMA/LTE）下的射频性能；\n\n岗位职责：\n1.射频 4G 5G 架构设计。\n2.原理图设计，PCB检查。\n3.射频关键器件验证选择。\n4.射频有源无源调试。\n5.认证问题解决。\n3、分析调试解决测试时发现的问题；\n4、设计手机RF电路图，检查PCB layout；\n5、负责手机RF器件的选型，评估；\n6、手机量产时，射频相关问题的产线支持",
+      "gt_names": [
+        "陈耀兴",
+        "邓正坤",
+        "董斌武",
+        "刘杰",
+        "丁紫阳",
+        "罗锺"
+      ],
+      "analysis": {
+        "core_skills": [
+          "4G/5G RF architecture design",
+          "RF schematic design",
+          "PCB layout review and inspection",
+          "RF component selection and evaluation",
+          "Active and passive RF debugging",
+          "RF performance testing across 3GPP standards (2G/3G/4G/5G)",
+          "Production line support for mass production",
+          "Interference analysis and resolution",
+          "Certification management (CE/FCC/NAD)",
+          "Modem configuration and software debugging (QXDM, QPST, Meta)",
+          "OTA and Desense testing"
+        ],
+        "tools": [
+          "Simulation Tools: HFSS, ADS, CST",
+          "EDA Software: Cadence, Altium Designer (AD), Mentor Graphics",
+          "Test Equipment: Spectrum Analyzer, Oscilloscope, Vector Network Analyzer (VNA), CMW500 (Rohde & Schwarz), Anritsu MT8821/MT8870/MT9080, Agilent E7515B (U8960), CW500, Teradyne/CW200",
+          "Platform Software: Qualcomm QXDM, QPST; MTK Meta tool; Samsung/Ericsson platform tools; Unisoc NVTool",
+          "General: Office Suite, Visio",
+          "Soldering/Rework: Hot air gun, precise soldering equipment"
+        ],
+        "domain": [
+          "Mobile Phone Development",
+          "Consumer Electronics",
+          "CPE/WIFI Routers",
+          "IoT Modules and Wearables",
+          "RF Module Design",
+          "Filter/Duplexer Design (specific to component suppliers)"
+        ],
+        "seniority": "mid-to-senior level (3-5+ years of dedicated rf experience required)",
+        "experience": [
+          "3-5 years in RF engineering roles",
+          "Proven experience in mobile phone development projects",
+          "Hands-on experience with Qualcomm, MTK, or Unisoc platforms",
+          "Full project lifecycle experience from EVT/DVT/PVT to MP (Mass Production)",
+          "Experience resolving certification issues and production line yields",
+          "Experience with both RF design/debugging and testing/validation"
+        ],
+        "hidden_rules": [
+          "Candidates must be willing to work under high pressure and tight deadlines (implied by 'no goal without persistence')",
+          "Strong capability to bridge the gap between R&D design and mass production execution is critical",
+          "Familiarity with specific test protocols (3GPP) and regional operator norms is essential",
+          "Hands-on soldering skills for small components (0201 size) are expected despite the engineering title",
+          "Ability to analyze logs (QXDM/Meta) is as important as using hardware analyzers",
+          "Experience with cost optimization and BOM evaluation is valued (evident from resumes discussing cost-saving solutions)"
+        ]
+      },
+      "weights": {
+        "skill_weight": 0.4,
+        "vector_weight": 0.2,
+        "role_weight": 0.2,
+        "experience_weight": 0.1,
+        "domain_weight": 0.1
+      },
+      "resume_labels": []
+    }
+  ]
+}
