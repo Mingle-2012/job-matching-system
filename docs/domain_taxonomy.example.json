@@ -1,0 +1,102 @@
+{
+  "profiles": {
+    "backend": [
+      "后端",
+      "python",
+      "java",
+      "golang",
+      "spring",
+      "fastapi",
+      "mysql",
+      "redis",
+      "microservice"
+    ],
+    "frontend": [
+      "前端",
+      "react",
+      "vue",
+      "javascript",
+      "typescript",
+      "html",
+      "css",
+      "webpack"
+    ],
+    "data_science": [
+      "数据分析",
+      "机器学习",
+      "深度学习",
+      "pytorch",
+      "tensorflow",
+      "xgboost",
+      "feature engineering",
+      "model serving"
+    ],
+    "embedded": [
+      "嵌入式",
+      "linux驱动",
+      "rtos",
+      "c",
+      "c++",
+      "arm",
+      "sdk",
+      "pcie",
+      "phy"
+    ],
+    "mechanical": [
+      "机械设计",
+      "结构设计",
+      "模具",
+      "creo",
+      "ug",
+      "cad",
+      "dfm",
+      "注塑"
+    ],
+    "rf": [
+      "射频",
+      "rf",
+      "天线",
+      "4g",
+      "5g",
+      "lte",
+      "3gpp",
+      "频谱仪"
+    ],
+    "product": [
+      "产品经理",
+      "需求分析",
+      "用户研究",
+      "roadmap",
+      "prd",
+      "增长",
+      "ab测试"
+    ],
+    "finance": [
+      "财务",
+      "审计",
+      "税务",
+      "预算",
+      "成本分析",
+      "会计准则",
+      "报表"
+    ],
+    "chemistry": [
+      "化学",
+      "有机合成",
+      "分析化学",
+      "高分子",
+      "催化",
+      "实验设计",
+      "仪器分析"
+    ],
+    "biology": [
+      "生物",
+      "分子生物学",
+      "细胞培养",
+      "基因",
+      "蛋白",
+      "生物信息",
+      "实验记录"
+    ]
+  }
+}
